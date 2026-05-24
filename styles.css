@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #0a0010;
 }
 
 .Profile {
@@ -12,12 +13,28 @@
 .Heading {
     padding: 20px;
     box-sizing: border-box;
-    background-color: purple;
+    background-color: #800080;
 }
 
 .profile-pic img {
     display: block;
     height: auto;
     max-width: 100%;
+}
 
+.Birthday-Wishes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #800080;
+    color: white;
+}
+
+.Birthday-Wishes-two {
+    text-align: center;px;
+    background-color: #800080;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: px;
 }
